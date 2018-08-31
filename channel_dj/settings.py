@@ -128,7 +128,7 @@ CHANNEL_LAYERS = {
         'CONFIG': {
             'hosts': [('localhost', 6379)],
         },
-        'ROUTING': 'example_channels.routing.channel_routing',
+        'ROUTING': 'channel_dj.routing.channel_routing',
     }
 }
 
