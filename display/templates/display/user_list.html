@@ -10,4 +10,18 @@
 
 {% block script %}
 
+<script type="text/javascript">
+	
+	var socket = new Websocket('ws://' + window.location.host + '/users/');
+
+	socket.onopen = function open() {
+		console.log("WEBSOCKET CONNECTION CREATED");
+	}
+
+	if (socket.readyState == WebSocket.OPEN) {
+		socket.onopen();
+	}
+
+</script>
+
 {% endblock %}
