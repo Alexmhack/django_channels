@@ -131,3 +131,5 @@ CHANNEL_LAYERS = {
         'ROUTING': 'example_channels.routing.channel_routing',
     }
 }
+
+ASGI_APPLICATION = 'channel_dj.wsgi.application'
