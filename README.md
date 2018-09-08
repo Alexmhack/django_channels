@@ -80,6 +80,12 @@ C:/users/--/--> ubuntu1804
 
 **Start redis server**
 
+Install [redis](https://redis.io/topics/quickstart) using 
+
+```
+tar xvzf redis-stable.tar.gz
+```
+
 **Ubuntu1804 on windows 10**
 ```
 $ sudo apt-get install redis-server
